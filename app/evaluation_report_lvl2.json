@@ -1,0 +1,444 @@
+{
+    "evaluation_type": "open-ended",
+    "total_questions": 50,
+    "grounded": 37,
+    "refused": 1,
+    "failed": 12,
+    "retrieval_hit_rate": 1,
+    "faithfulness": 0.74,
+    "hallucination_rate": 0.24,
+    "sample_results": [
+        {
+            "category": "factual",
+            "question": "Define dew point.",
+            "answer": "According to the provided context, the definition of dew point is:\n\n\"Dew point (DP) is the temperature to which air must be cooled at constant pressure for saturation to occur. Note that the dew point temperature is not the same as the wet bulb temperature (except at saturation). The dew point has a lapse rate of 0.5\u00b0C/1000 ft.\"\n\nIn simpler terms, dew point is the temperature at which air must be cooled to reach saturation, which is the point at which the air cannot hold any more moisture and will condense into dew or frost. The dew point temperature is different from the wet bulb temperature, except when the air is fully saturated.",
+            "citations": [
+                "Meteorology full book.pdf - Page 87",
+                "Meteorology full book.pdf - Page 87"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is atmospheric pressure?",
+            "answer": "INFERRED: Atmospheric pressure is the force per unit area exerted by the atmosphere on any surface in contact with it.",
+            "citations": [
+                "Meteorology full book.pdf - Page 23",
+                "Meteorology full book.pdf - Page 24"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is Relative Humidity?",
+            "answer": "Using only the provided context, the answer to the question \"What is Relative Humidity?\" is:\n\nINFERRED: Relative humidity is the ratio of the amount of water vapor in the air to the maximum amount that the air can hold at a given temperature.",
+            "citations": [
+                "Meteorology full book.pdf - Page 86",
+                "Meteorology full book.pdf - Page 642"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is the purpose of the pressure altimeter?",
+            "answer": "The purpose of the pressure altimeter is to measure pressure and cause a needle to move across a dial, indicating the aircraft's height above a reference pressure level. The instrument is calibrated in accordance with the ICAO International Standard Atmosphere, so that all altimeters will read the same altitude for the same pressure. Additionally, the altimeter has a variable datum mechanism that allows the pilot to set the desired pressure level on the face of the instrument, and the altimeter will indicate the aircraft's height above that pressure level.",
+            "citations": [
+                "Meteorology full book.pdf - Page 133",
+                "Instruments.pdf - Page 62"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "Define Mach number.",
+            "answer": "INFERRED: Mach number is the ratio of an aircraft's true airspeed (TAS) to the local speed of sound (LSS) in the surrounding air.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 246",
+                "Instruments.pdf - Page 99"
+            ],
+            "status": "grounded"
+        }
+    ],
+    "full_results": [
+        {
+            "category": "factual",
+            "question": "Define dew point.",
+            "answer": "According to the provided context, the definition of dew point is:\n\n\"Dew point (DP) is the temperature to which air must be cooled at constant pressure for saturation to occur. Note that the dew point temperature is not the same as the wet bulb temperature (except at saturation). The dew point has a lapse rate of 0.5\u00b0C/1000 ft.\"\n\nIn simpler terms, dew point is the temperature at which air must be cooled to reach saturation, which is the point at which the air cannot hold any more moisture and will condense into dew or frost. The dew point temperature is different from the wet bulb temperature, except when the air is fully saturated.",
+            "citations": [
+                "Meteorology full book.pdf - Page 87",
+                "Meteorology full book.pdf - Page 87"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is atmospheric pressure?",
+            "answer": "INFERRED: Atmospheric pressure is the force per unit area exerted by the atmosphere on any surface in contact with it.",
+            "citations": [
+                "Meteorology full book.pdf - Page 23",
+                "Meteorology full book.pdf - Page 24"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is Relative Humidity?",
+            "answer": "Using only the provided context, the answer to the question \"What is Relative Humidity?\" is:\n\nINFERRED: Relative humidity is the ratio of the amount of water vapor in the air to the maximum amount that the air can hold at a given temperature.",
+            "citations": [
+                "Meteorology full book.pdf - Page 86",
+                "Meteorology full book.pdf - Page 642"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is the purpose of the pressure altimeter?",
+            "answer": "The purpose of the pressure altimeter is to measure pressure and cause a needle to move across a dial, indicating the aircraft's height above a reference pressure level. The instrument is calibrated in accordance with the ICAO International Standard Atmosphere, so that all altimeters will read the same altitude for the same pressure. Additionally, the altimeter has a variable datum mechanism that allows the pilot to set the desired pressure level on the face of the instrument, and the altimeter will indicate the aircraft's height above that pressure level.",
+            "citations": [
+                "Meteorology full book.pdf - Page 133",
+                "Instruments.pdf - Page 62"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "Define Mach number.",
+            "answer": "INFERRED: Mach number is the ratio of an aircraft's true airspeed (TAS) to the local speed of sound (LSS) in the surrounding air.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 246",
+                "Instruments.pdf - Page 99"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is a gyroscope used for in aircraft instruments?",
+            "answer": "Based on the provided context, a gyroscope is used for providing an attitude reference in aircraft instruments.",
+            "citations": [
+                "Instruments.pdf - Page 153",
+                "Instruments.pdf - Page 143"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What does ICAO stand for?",
+            "answer": "ICAO stands for International Civil Aviation Organization.\n\nINFERRED: The International Civil Aviation Organization is a specialized agency of the United Nations responsible for the safety and regulation of international air travel.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 234",
+                "Meteorology full book.pdf - Page 7"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "Define Airworthiness.",
+            "answer": "Based on the provided context, the definition of \"Airworthiness\" can be inferred as:\n\nINFERRED: Airworthiness refers to the state of being suitable or safe for flight.",
+            "citations": [
+                "Meteorology full book.pdf - Page 642",
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 238"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is a VOR?",
+            "answer": "Based on the provided context, a VOR (VHF Omni-directional Range) is an aviation instrument that provides navigation information to aircraft. It consists of three main components: aerial, receiver, and indicator. The aerial is used to receive the VOR signal, while the receiver is a box fitted in the avionics bay that processes the signal. The indicator displays the deviation of the aircraft from a selected bearing (to or from the VOR station) and is widely used in light aircraft.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 176",
+                "11-radio-navigation-2014.pdf - Page 125"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "Define Instrument Landing System (ILS).",
+            "answer": "1. Definition: The Instrument Landing System (ILS) is a precision approach and landing aid that provides pilots with accurate guidance in both the horizontal and vertical planes, enabling them to carry out automatic landings.\n2. Inferred: The ILS system consists of ground installation components such as localizer, glide path, and marker beacons, as well as airborne equipment. It requires a suitable ground installation and airborne equipment to operate.",
+            "citations": [
+                "11-radio-navigation-2014.pdf - Page 153",
+                "11-radio-navigation-2014.pdf - Page 170"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is a Great Circle?",
+            "answer": "Great Circle: A circle on the surface of the Earth whose center and radius are those of the Earth itself is called a Great Circle.",
+            "citations": [
+                "10-General-Navigation-2014 (1).pdf - Page 29",
+                "10-General-Navigation-2014 (1).pdf - Page 13"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is Point of Equal Time (PET)?",
+            "answer": "Based on the provided context, the definition of Point of Equal Time (PET) is:\n\nA point on a flight path where it takes the same time for an aircraft to fly to either of two suitable airfields.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 249",
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 249"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What does PSR stand for in flight planning?",
+            "answer": "Based on the provided context, PSR stands for \"Point of Safe Return\" in flight planning.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265",
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "Define Centre of Gravity (CG).",
+            "answer": "Based on the provided context, the definition of Centre of Gravity (CG) is:\n\n\"The point through which the force of gravity is said to act on a mass (in aircraft terms, the point on the aircraft through which the total mass is said to act in a vertically downward manner).\"",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 35",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 32"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "What is MTOW (Maximum Takeoff Weight)?",
+            "answer": "Based on the provided context, the definition of MTOW (Maximum Takeoff Weight) can be inferred as:\n\nINFERRED: MTOW refers to the maximum weight of an aircraft at takeoff, including fuel, passengers, cargo, and other payload.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 32",
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 107"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "factual",
+            "question": "Define TAS (True Air Speed).",
+            "answer": "INFERRED: True Air Speed (TAS) is the true speed of an aircraft relative to the air it is flying through, corrected for density error.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 244",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 244"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "How does temperature affect aircraft performance during takeoff?",
+            "answer": "1. Definition: Air Temperature Measurement refers to the process of measuring the temperature of the air in which an aircraft is flying.\n2. Examples/Numbers: There are no specific examples or numbers provided in the context for how temperature affects aircraft performance during takeoff.\n3. Inferred Definition: Based on the context, it can be inferred that temperature affects aircraft performance during takeoff by impacting engine power and air density, which in turn affects measurement of speed and altitude.\n4. Confidence Level: High confidence level as the information is directly related to aviation and the provided context provides sufficient details.\n5. Named Entity Restriction: No named individuals or inventors are mentioned in the context, so the answer to any question about a person, inventor, founder, author, or any named individual cannot be found in the provided document(s).\n6. Question: How does temperature affect aircraft performance during takeoff? Answer: Temperature affects aircraft performance during takeoff by impacting engine power and air density, which in turn affects measurement of speed and altitude.",
+            "citations": [
+                "Instruments.pdf - Page 31",
+                "Instruments.pdf - Page 34"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Explain the effect of a blocked pitot tube on ASI readings.",
+            "answer": "Based on the provided context, the effect of a blocked pitot tube on ASI readings is:\n\nINFERRED: The ASI will under-read in a descent if the pitot tube is blocked.",
+            "citations": [
+                "Instruments.pdf - Page 51",
+                "Instruments.pdf - Page 52"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "What action must be taken when entering controlled airspace without clearance?",
+            "answer": "INFERRED: When entering controlled airspace without clearance, the pilot must inform ATC as soon as possible.",
+            "citations": [
+                "10-General-Navigation-2014 (1).pdf - Page 234",
+                "Instruments.pdf - Page 497"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "How can the Navigation Computer be used to calculate wind components?",
+            "answer": "Based on the provided context, the Navigation Computer can be used to calculate wind components using the circular slide rule face. The theory behind this is that the slide rule is a logarithmic scale, which allows for easy and rapid calculations of wind components. Specifically, the Navigation Computer can be used to calculate the following wind components:\n\n* Headwind (H): This is calculated by moving the slider to the right until the desired headwind value is reached. The distance traveled along the slide rule is directly proportional to the headwind value.\n* Tailwind (T): This is calculated by moving the slider to the left until the desired tailwind value is reached. The distance traveled along the slide rule is directly proportional to the tailwind value.\n\nFor example, if the desired headwind value is 10 knots, the slider would be moved 10 spaces to the right. Similarly, if the desired tailwind value is 10 knots, the slider would be moved 10 spaces to the left.\n\nIt's important to note that the Navigation Computer can only calculate wind components in knots (or meters per second). The calculations are based on the logarithmic scale of the slide rule, which allows for rapid and easy calculations of wind components.",
+            "citations": [
+                "10-General-Navigation-2014 (1).pdf - Page 520",
+                "10-General-Navigation-2014 (1).pdf - Page 75"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "How does icing impact aircraft lift and drag?",
+            "answer": "INFERRED: Icing can impact aircraft lift and drag by:\n\n1. Distorting the aerofoil shape of the wings, which can lead to a loss of lift and an increase in drag.\n2. Freezing of control surfaces, which can make them difficult or impossible to move, further affecting lift and drag.\n3. Accumulation of ice on the aircraft's surface, adding weight and increasing drag.\n4. Intake or carburettor icing, which can cause engine power loss or total failure.\n5. Chunks of ice flying off the propellors and hitting the side of the fuselage, potentially causing damage.",
+            "citations": [
+                "Meteorology full book.pdf - Page 296",
+                "Instruments.pdf - Page 31"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Explain how CG shift affects longitudinal stability.",
+            "answer": "INFERRED: The CG shift can affect the longitudinal stability of an aircraft by increasing the tail down force, which can result in higher control column forces during maneuvers, leading to increased pilot fatigue. Additionally, the increase in tail down force can decrease the ability to pitch the aircraft's nose up or down, and can also increase take-off speeds V1, VR, VMU on the ground.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 34",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 33"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Explain the purpose of glide slope guidance in ILS.",
+            "answer": "This purpose of glide slope guidance in ILS is to provide a precise vertical path for the aircraft during the final approach, ensuring that it reaches the runway at the correct altitude and velocity. The glide slope is a radio signal transmitted by the ILS station that guides the aircraft along a predetermined path, allowing it to align with the runway orientation and descend smoothly to touchdown. By providing accurate vertical guidance, the glide slope helps to reduce the risk of controlled flight into terrain (CFIT) and improves the overall safety and efficiency of instrument landing systems.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 178",
+                "11-radio-navigation-2014.pdf - Page 177"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "How does air density affect altimeter readings?",
+            "answer": "The answer to the question can be found in the provided text:\n\n\"The reason the altimeter reads 1000 ft is because the actual air pressure is the same as that at 1000 ft in the International Standard Atmosphere - you are at 'a high Pressure Altitude'.\"\n\nAir density affects altimeter readings by determining the actual air pressure, which in turn affects the altimeter reading. In this case, the altimeter reads 1000 ft because the actual air pressure is the same as that at 1000 ft in the International Standard Atmosphere, despite the aircraft being physically at sea level.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 193",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 193"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Describe the difference between PSR and PET.",
+            "answer": "Based on the provided context, the difference between PSR (Point of Safe Return) and PET (Petit Episodes of Turbulence) can be inferred as follows:\n\nPSR (Point of Safe Return):\n\n* The furthest point along a planned route to which an aircraft can fly and return to the departure airfield, or departure alternate, within the safe endurance of the aircraft.\n* Calculated based on the safe endurance of the aircraft, which is the length of time it can fly without consuming the mandatory reserves of fuel required overhead its departure airfield, or departure alternate, in the event of returning from the PSR.\n* Typically used for flights to isolated destinations where no adequate destination alternate exists.\n\nPET (Petit Episodes of Turbulence):\n\n* A term used to describe small episodes of turbulence that occur during flight.\n* Not a specific point or location, but rather a condition that can occur at any point along a flight path.\n* Can be caused by a variety of factors, including weather patterns, air traffic, and aircraft performance.\n\nIn summary, PSR is a specific point or location along a flight path where an aircraft can safely return to its departure airfield or alternate destination, while PET is a general term used to describe small episodes of turbulence that can occur at any point during a flight.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265",
+                "Meteorology full book.pdf - Page 84"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "How can GNSS improve navigation accuracy compared to VOR?",
+            "answer": "Based on the provided context, the answer to the question \"How can GNSS improve navigation accuracy compared to VOR?\" is:\n\na. GNSS can provide more accurate navigation information than VOR because it uses a larger number of satellites and takes into account the signal delays caused by the satellite's distance from the receiver, which results in a more precise determination of the aircraft's position.",
+            "citations": [
+                "11-radio-navigation-2014.pdf - Page 324",
+                "11-radio-navigation-2014.pdf - Page 286"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Explain the importance of Standard Pressure Setting above Transition Altitude.",
+            "answer": "The Standard Pressure Setting (SPS) above the transition altitude is crucial for accurate altimetry readings. When flying above the transition altitude, setting the standard pressure of 1013 hPa on the altimeter instrument will provide the most accurate height reading. This is because the difference between the airfield QNH and the forecast QNH is minimized, resulting in a barometric error of less than 30 ft/hPa. In other words, the SPS setting ensures that the altimeter reads the correct altitude, rather than being too high or too low due to the difference between the airfield and forecasted pressure.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 140",
+                "Meteorology full book.pdf - Page 136"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Describe the effect of a tailwind on takeoff performance.",
+            "answer": "INFERRED: A tailwind during takeoff will decrease the glide angle and increase the descent range.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 231",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 262"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "What factors influence selection of cruising altitude in MRJT planning?",
+            "answer": "Based on the provided context, the following are the factors that influence the selection of cruising altitude in MRJT planning:\n\n1. Aerodynamics (answer: a)\n2. Theoretical ceiling (answer: c)\n3. Service ceiling (answer: d)\n\nExplanation:\n\nThe selection of cruising altitude is influenced by various factors, including aerodynamics, theoretical ceiling, and service ceiling. Aerodynamics play a significant role in determining the optimum cruise altitude, as it affects the aircraft's lift and drag characteristics. Theoretical ceiling refers to the highest altitude that an aircraft can reach based on its design and performance capabilities. Service ceiling, on the other hand, is the altitude at which the aircraft can maintain a steady flight path in still air conditions. These factors must be considered when selecting the cruising altitude for a MRJT flight.",
+            "citations": [
+                "7-Flight-Planning-and-Monitoring-2014.pdf - Page 86",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 467"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "applied",
+            "question": "Explain why wake turbulence separation is required on landing.",
+            "answer": "This answer is not available as the question does not pertain to wake turbulence separation. The question asks for an explanation of why wake turbulence separation is required on landing, but there is no such thing as \"wake turbulence separation\" in aviation. Additionally, the context of the question suggests that it is asking about a specific aspect of aircraft landing procedures, which is not related to any type of turbulence separation. Therefore, I cannot provide an answer to this question.",
+            "citations": [
+                "Meteorology full book.pdf - Page 112",
+                "Meteorology full book.pdf - Page 111"
+            ],
+            "status": "refused"
+        },
+        {
+            "category": "reasoning",
+            "question": "Why does icing increase stall speed and reduce climb performance?",
+            "answer": "INFERRED: Icing increases stall speed and reduces climb performance due to the increased stability of the aircraft.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 33",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 160"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Why is RVSM necessary for fuel efficiency in high-altitude flight?",
+            "answer": "The answer to your question can be found in the provided context. According to the text, flying at high altitude minimizes the fuel used per unit of thrust, and the aim is now to fly the aircraft using minimum possible total thrust. The formula provided shows that fuel flow is directly proportional to SFC (Specific Fuel Consumption) and total drag. Therefore, to minimize fuel consumption, the aircraft should fly at the velocity for minimum drag, which is VMD (Maximum Endurance Speed). This is why RVSM (Required Vertical Separation Minimum) is necessary for fuel efficiency in high-altitude flight.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 249",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 265"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Why can wind shear near the ground be more dangerous than at altitude?",
+            "answer": "INFERRED: Wind shear near the ground can be more dangerous than at altitude because of the reduced airspeed due to friction between moving air and the land surface, which reduces the Coriolis force and causes the two forces in the geostrophic wind to be out of balance. This can lead to a greater dominance of the pressure gradient force, causing the wind to blow across isobars towards the low pressure area, potentially leading to more dangerous flight conditions.",
+            "citations": [
+                "Meteorology full book.pdf - Page 163",
+                "Meteorology full book.pdf - Page 183"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Explain how Great Circle routes reduce fuel consumption.",
+            "answer": "Great Circle routes reduce fuel consumption by taking advantage of the shortest distance between two points on the Earth's surface, also known as the \"great circle\" or \"shortest path\" route. This route is calculated using trigonometry and takes into account the curvature of the Earth. By flying along this route, aircraft can save fuel compared to flying a Rhumb Line route, which follows a straight line between two points regardless of the distance or curvature of the Earth. The difference in fuel consumption between Great Circle and Rhumb Line routes is known as the \"conversion angle.\"",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 452",
+                "10-General-Navigation-2014 (1).pdf - Page 256"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Why does QNH setting need correction when transitioning to flight levels?",
+            "answer": "INF: The QNH setting needs correction when transitioning to flight levels because the altimeter will under-read the true altitude if the QNH is higher than the actual temperature at the transition level. This means that the aircraft will be shown to be lower than its actual altitude, leading to a potential risk of collision with terrain or other aircraft. Therefore, it is important to use the regional QNH when transitioning to flight levels to ensure accurate altimetry and maintain safe separation from terrain and other aircraft.",
+            "citations": [
+                "Instruments.pdf - Page 70",
+                "Meteorology full book.pdf - Page 145"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Why do jet engines perform better in cold temperatures?",
+            "answer": "The answer to the question \"Why do jet engines perform better in cold temperatures?\" can be inferred from the provided context as follows:\n\nINFERRED: Jet engines perform better in cold temperatures because the air density is lower, which means that more fuel can be provided for combustion, resulting in more power output. This is because the expansion of the combustion products is partly caused by the addition of combustion products (i.e. fuel), but mainly caused by a large temperature rise. Therefore, less fuel will be provided, in order to maintain the correct mix, when the air is dense.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 156",
+                "Instruments.pdf - Page 31"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Explain why excess aircraft mass reduces takeoff climb gradient.",
+            "answer": "INFERRED: The excess aircraft mass reduces the takeoff climb gradient because a greater mass requires more thrust to lift it off the ground and climb at a steep angle. With a higher excess thrust, the aircraft can climb at a steeper angle despite the increased weight.",
+            "citations": [
+                "6-mass-and-balance-and-performance-2014.pdf - Page 191",
+                "6-mass-and-balance-and-performance-2014.pdf - Page 432"
+            ],
+            "status": "grounded"
+        },
+        {
+            "category": "reasoning",
+            "question": "Why is standby instrumentation critical in case of Air Data Computer failure?",
+            "answer": "INFERRED: Standby instrumentation is critical in case of Air Data Computer failure to provide the pilot with alternative sources of air data in order to maintain safe flight operations.",
+            "citations": [
+                "Instruments.pdf - Page 105",
+                "Instruments.pdf - Page 106"
+            ],
+            "status": "grounded"
+        }
+    ]
+}

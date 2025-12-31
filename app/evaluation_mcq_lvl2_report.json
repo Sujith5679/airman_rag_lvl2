@@ -1,0 +1,509 @@
+{
+  "evaluation_type": "MCQ \u2013 Level 2 (Hybrid Retrieval)",
+  "metrics": {
+    "total_questions": 50,
+    "correct": 35,
+    "refused": 1,
+    "failed": 14,
+    "choice_matching_accuracy": 0.7,
+    "retrieval_hit_rate": 1,
+    "faithfulness_rate": 0.7,
+    "hallucination_rate": 0.28
+  },
+  "question_breakdown": [
+    {
+      "id": 1,
+      "question": "Flight levels are referenced to:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 2,
+      "question": "If both pitot and static sources are blocked, the ASI will:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 3,
+      "question": "An aircraft shall be registered in:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 4,
+      "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 5,
+      "question": "When two aircraft are converging at approximately the same altitude, the aircraft which has the other on its:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 6,
+      "question": "Which airspace class permits both IFR and VFR flights with ATC separation provided only to IFR?",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 7,
+      "question": "The primary objective of Air Traffic Services is to:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 8,
+      "question": "The primary reason temperature normally decreases with height in the troposphere is due to:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 9,
+      "question": "Dew point is best defined as the:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 10,
+      "question": "An air parcel lifted dry adiabatically will cool at approximately:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 11,
+      "question": "Who painted the famous artwork Mona Lisa?",
+      "model_answer": "INFERRED: The person who painted the famous artwork Mona Lisa is Leonardo da Vinci.",
+      "matched_choice": "D",
+      "citations": [
+        "Meteorology full book.pdf - Page 469",
+        "10-General-Navigation-2014 (1).pdf - Page 339"
+      ],
+      "status": " correct (matched D)"
+    },
+    {
+      "id": 12,
+      "question": "The Point of No Return (PNR) is most sensitive to changes in:",
+      "model_answer": "INFERRED: The Point of No Return (PNR) is most sensitive to changes in position error.",
+      "matched_choice": "A",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265",
+        "Instruments.pdf - Page 84"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 13,
+      "question": "A missed approach shall be initiated when:",
+      "model_answer": "1. The definition of DA (Decision Altitude) is not provided in the context, so I cannot provide a definition.\n2. The definition of DH (Decision Height) is not provided in the context, so I cannot provide a definition.\n3. The concept of missed approach is mentioned in the context, but no specific altitude or height is provided for when a missed approach shall be initiated. Therefore, I cannot answer this question based on the provided context.",
+      "matched_choice": "A",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 153",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 179"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 14,
+      "question": "The scale of a Mercator chart increases with:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 15,
+      "question": "A Commercial Pilot Licence holder may:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 16,
+      "question": "The maximum difference between apparent noon and mean noon occurs approximately during:",
+      "model_answer": "1. The definition of \"mean solar day\" can be inferred from the context as:\nINFERRED: Mean solar day refers to the average length of an apparent solar day (averaged over the year).\n2. The maximum difference between apparent noon and mean noon occurs approximately during November and February, with a difference of about 16 minutes in mid-November and a second maximum of about 14 minutes in mid-February.\n3. The equation of time is related to the difference between apparent solar time and mean solar time, and it is shown in Figure 24.8.\n4. The information is not available in the provided document(s) regarding the airport at 5211N 00706W being named Kerry, Cork, Shannon, or Waterford.\n5. The information is not available in the provided document(s) regarding the time difference between apparent noon and mean noon being equivalent to 81\u00b030\u2019, 78\u00b015\u2019, 79\u00b010\u2019, or 80\u00b005\u2019.",
+      "matched_choice": "A",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 529",
+        "10-General-Navigation-2014 (1).pdf - Page 391"
+      ],
+      "status": " refused (correct behavior)"
+    },
+    {
+      "id": 17,
+      "question": "A sea breeze occurs primarily due to:",
+      "model_answer": "Based on the provided context, the answer to the question \"A sea breeze occurs primarily due to:\" is:\n\nINFERRED: The sea breeze occurs primarily due to the lifting of air over land with the sea breeze, which causes small clouds to form as shown in Figure 10.26.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 170",
+        "Meteorology full book.pdf - Page 167"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 18,
+      "question": "The minimum number of satellites required by GNSS to determine a 3-D position and time error correction is:",
+      "model_answer": "The answer to question 150 is:\n\na. 4\n\nExplanation:\nTo determine a 3-D position and time error correction using GNSS, a minimum of 4 satellites are required. This is because the position and time information provided by each satellite can be used to calculate the position and time errors, which can then be corrected using the information from the other satellites. With fewer than 4 satellites, it would not be possible to determine the position and time errors accurately enough to correct them.",
+      "matched_choice": "A",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 359",
+        "11-radio-navigation-2014.pdf - Page 357"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 19,
+      "question": "Which cloud type is most likely to produce continuous precipitation?",
+      "model_answer": "Based on the provided context, the cloud type that is most likely to produce continuous precipitation is:\n\nINFERRED: Cumulonimbus.",
+      "matched_choice": "B",
+      "citations": [
+        "Meteorology full book.pdf - Page 231",
+        "Meteorology full book.pdf - Page 232"
+      ],
+      "status": " correct (matched B)"
+    },
+    {
+      "id": 20,
+      "question": "Which is the largest planet in our solar system?",
+      "model_answer": "INFERRED: The largest planet in our solar system is Jupiter.",
+      "matched_choice": "C",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 385",
+        "10-General-Navigation-2014 (1).pdf - Page 386"
+      ],
+      "status": " correct (matched C)"
+    },
+    {
+      "id": 21,
+      "question": "The primary reason for the difference between geodetic latitude and geocentric latitude is due to:",
+      "model_answer": "Using only the provided context, the primary reason for the difference between geodetic latitude and geocentric latitude is due to the Earth's oblateness. The definition of latitude given in the passage is based on the center of the Earth, which is known as geocentric latitude. However, because the Earth is an oblate spheroid, a different definition of latitude can be used, namely geodetic (or geographic) latitude, which is the smaller angle between the normal to the meridian at the point on the spheroid and the plane of the Equator. This normal line does not necessarily pass through the center of the spheroid as illustrated in the diagram. Therefore, the latitudes plotted on navigation charts are geodetic latitudes, which differ from geocentric latitudes due to the Earth's oblateness.",
+      "matched_choice": "A",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 16",
+        "10-General-Navigation-2014 (1).pdf - Page 16"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 22,
+      "question": "Which visibility restriction is caused by hygroscopic particles?",
+      "model_answer": "The visibility restriction caused by hygroscopic particles is condensation nuclei. Hygroscopic particles provide ample nuclei for vapor to condense on, thus increasing the severity of radiation fog.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 273",
+        "Meteorology full book.pdf - Page 279"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 23,
+      "question": "What is the capital city of Australia?",
+      "model_answer": "The capital city of Australia is Canberra.",
+      "matched_choice": "D",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 420",
+        "Meteorology full book.pdf - Page 443"
+      ],
+      "status": " correct (matched D)"
+    },
+    {
+      "id": 24,
+      "question": "The primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:",
+      "model_answer": "Based on the provided context, the primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:\n\nINFERRED: SSR requires much less transmitting power to provide coverage up to 200 to 250 NM.",
+      "matched_choice": "A",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 233",
+        "11-radio-navigation-2014.pdf - Page 233"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 25,
+      "question": "The Point of No Return (PNR) is most sensitive to changes in:",
+      "model_answer": "INFERRED: The Point of No Return (PNR) is most sensitive to changes in position error.",
+      "matched_choice": "A",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265",
+        "Instruments.pdf - Page 84"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 26,
+      "question": "The primary objective of the Chicago Convention is to:",
+      "model_answer": "1. Definition: Autoland Introduction is a procedure to reduce the amount of fuel carried on a flight by reducing contingency fuel from 10% to 5% of trip fuel.\n2. Inferred: The primary objective of the Chicago Convention is to assist in decision making at refuelling.",
+      "matched_choice": "A",
+      "citations": [
+        "Instruments.pdf - Page 385",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 286"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 27,
+      "question": "Relative humidity will increase when:",
+      "model_answer": "Based on the provided context, the answer to the question \"Relative humidity will increase when\" is:\n\na. warmer air compared to colder air\n\nThe context explains that as the temperature increases, the maximum amount of water vapour the air can hold also increases, leading to a decrease in relative humidity (RH) during the day. However, after 1500 hours, the temperature will start to fall, and the maximum amount of water vapour the air can hold will fall, resulting in an increase in RH at night. This is why mist and fog form after dark in autumn and winter.\n\nTherefore, relative humidity will increase when the air is warmer compared to colder air.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 88",
+        "Meteorology full book.pdf - Page 642"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 28,
+      "question": "Who was the first human to walk on the Moon?",
+      "model_answer": "Based on the provided context, the answer to the question \"Who was the first human to walk on the Moon?\" is:\n\nINFERRED: Neil Armstrong.",
+      "matched_choice": "D",
+      "citations": [
+        "Instruments.pdf - Page 357",
+        "10-General-Navigation-2014 (1).pdf - Page 299"
+      ],
+      "status": " correct (matched D)"
+    },
+    {
+      "id": 29,
+      "question": "Which document contains permanent and temporary changes of long duration to aeronautical information?",
+      "model_answer": "Based on the provided context, the document that contains permanent and temporary changes of long duration to aeronautical information is the \"Air Information Publication (AIP)\" supplemented by NOTAMs.",
+      "matched_choice": "A",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 11",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 9"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 30,
+      "question": "If an aircraft flies at a constant Mach number while descending through an inversion layer, the CAS will:",
+      "model_answer": "Based on the provided context, the answer to the question is:\n\nA) remain constant.\n\nThe passage explains that when an aircraft descends through an inversion layer, the CAS (Climb Angle Scale) will remain constant. This is because the descent is taking place at a constant Mach number, which means that the air density is not changing, and therefore the dynamic pressure remains constant. As a result, the CAS does not change during the descent.",
+      "matched_choice": "C",
+      "citations": [
+        "Instruments.pdf - Page 638",
+        "Instruments.pdf - Page 93"
+      ],
+      "status": " correct (matched C)"
+    },
+    {
+      "id": 31,
+      "question": "The range of a VHF navigation aid is primarily limited by:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 32,
+      "question": "The most hazardous icing for aircraft performance is:",
+      "model_answer": "The most hazardous icing for aircraft performance is severe icing, as defined by ICAO. This is because de-icing/anti-icing equipment fails to reduce or control the hazard at this level of icing intensity, and immediate diversion is necessary.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 301",
+        "Meteorology full book.pdf - Page 298"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 33,
+      "question": "Which process transfers heat vertically in the atmosphere?",
+      "model_answer": "Based on the provided context, the process that transfers heat vertically in the atmosphere is convection.",
+      "matched_choice": "C",
+      "citations": [
+        "Meteorology full book.pdf - Page 68",
+        "Meteorology full book.pdf - Page 67"
+      ],
+      "status": " correct (matched C)"
+    },
+    {
+      "id": 34,
+      "question": "The colour of runway threshold lights is:",
+      "model_answer": "Based on the provided context, the answer to the question \"The colour of runway threshold lights is:\" is:\n\nINFERRED: The colour of runway threshold lights is not specified in the provided document.",
+      "matched_choice": "A",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 134",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 151"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 35,
+      "question": "The Dry Adiabatic Lapse Rate (approx.) is:",
+      "model_answer": "The Dry Adiabatic Lapse Rate (DALR) is approximately 9.5\u00b0C/100 m (or 1.8\u00b0C/1000 ft).",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 95",
+        "Meteorology full book.pdf - Page 93"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 36,
+      "question": "Reduced Vertical Separation Minimum (RVSM) vertical separation between FL290 and FL410 is:",
+      "model_answer": null,
+      "status": " failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 37,
+      "question": "The primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:",
+      "model_answer": "Based on the provided context, the primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:\n\nINFERRED: SSR requires much less transmitting power to provide coverage up to 200 to 250 NM.",
+      "matched_choice": "A",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 233",
+        "11-radio-navigation-2014.pdf - Page 233"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 38,
+      "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+      "model_answer": "Based on the provided text, the answer to question 29 is:\n\nThe document that confirms an aircraft complies with approved design and maintenance standards is the \"M & B documentation\". This is confirmed in the text by the following statements:\n\n* \"must enable the commander to determine that the load and its distribution is such that the limits of the aircraft are not exceeded\" (emphasis added)\n* \"the documentation is not signed prior to flight\" (emphasis added)\n\nTherefore, the answer to question 29 is (b) The M & B documentation.",
+      "matched_choice": "A",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 31",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 26"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 39,
+      "question": "The ISA assumes a temperature lapse rate of:",
+      "model_answer": "The ISA assumes a temperature lapse rate of 0.65\u00b0C/100 m (1.98\u00b0C/1000 ft) up to 11 km (36 090 ft), and then a constant temperature of -56.5\u00b0C up to 20 km (65 617 ft).",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 12",
+        "Instruments.pdf - Page 92"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 40,
+      "question": "Who was the first human to walk on the Moon?",
+      "model_answer": "Based on the provided context, the answer to the question \"Who was the first human to walk on the Moon?\" is:\n\nINFERRED: Neil Armstrong.",
+      "matched_choice": "D",
+      "citations": [
+        "Instruments.pdf - Page 357",
+        "10-General-Navigation-2014 (1).pdf - Page 299"
+      ],
+      "status": " correct (matched D)"
+    },
+    {
+      "id": 41,
+      "question": "Clear Air Turbulence (CAT) is most commonly associated with:",
+      "model_answer": "Based on the provided context, Clear Air Turbulence (CAT) is most commonly associated with upper level ridges.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 115",
+        "Meteorology full book.pdf - Page 116"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 42,
+      "question": "In an ICAO flight plan, the planned cruising speed is expressed as:",
+      "model_answer": "INF: The planned cruising speed in an ICAO flight plan is expressed as \"K\" followed by 4 figures, representing kilometers per hour. For example, \"K0830\" represents a cruising speed of 830 kilometers per hour.",
+      "matched_choice": "A",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 237",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 245"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 43,
+      "question": "Relative humidity will increase when:",
+      "model_answer": "Based on the provided context, the answer to the question \"Relative humidity will increase when\" is:\n\na. warmer air compared to colder air\n\nThe context explains that as the temperature increases, the maximum amount of water vapour the air can hold also increases, leading to a decrease in relative humidity (RH) during the day. However, after 1500 hours, the temperature will start to fall, and the maximum amount of water vapour the air can hold will fall, resulting in an increase in RH at night. This is why mist and fog form after dark in autumn and winter.\n\nTherefore, relative humidity will increase when the air is warmer compared to colder air.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 88",
+        "Meteorology full book.pdf - Page 642"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 44,
+      "question": "The primary purpose of aircraft accident investigation is to:",
+      "model_answer": "The primary purpose of aircraft accident investigation is to:\n\nA) Identify the cause of an accident and recommend safety measures to prevent similar accidents in the future.\n\nB) Determine the factors that contributed to an accident and provide a detailed report on the incident.\n\nC) Investigate the causes of an accident and make recommendations for changes in aircraft design or operation to reduce the risk of similar accidents occurring in the future.\n\nD) Provide support to the families of accident victims and offer counseling services.\n\nThe correct answer is (C). The primary purpose of aircraft accident investigation is to investigate the causes of an accident and make recommendations for changes in aircraft design or operation to reduce the risk of similar accidents occurring in the future. This involves identifying the factors that contributed to the accident, gathering evidence and data, and conducting a thorough analysis of the incident. The findings of the investigation are then used to make recommendations for safety improvements, which can help prevent similar accidents from occurring in the future.",
+      "matched_choice": "A",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 12",
+        "Meteorology full book.pdf - Page 9"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 45,
+      "question": "Wind shear is most hazardous during:",
+      "model_answer": "Wind shear is most hazardous during lower levels.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 262",
+        "Meteorology full book.pdf - Page 263"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 46,
+      "question": "A warm front is typically characterized by:",
+      "model_answer": "Based on the provided context, a warm front is typically characterized by:\n\nINFERRED: A warm front is shown at Figure 17.14 and has an approximate slope of 1:150. The front moves at right angles to itself at a speed equal to 2/3 of the geostrophic interval measured along the front, as shown in Figure 17.16.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 316",
+        "Meteorology full book.pdf - Page 611"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 47,
+      "question": "Thunderstorms require all EXCEPT:",
+      "model_answer": "The correct answer is:\n\nAvoid flying in and around thunderstorms.\n\nExplanation:\n\nThe passage highlights the hazards associated with flying in and around thunderstorms, including turbulence, lightning, and windshear. It emphasizes that accidents have occurred during various phases of flight, including take-off, initial climb, and final approach. Therefore, the safest option is to avoid flying in these conditions altogether.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 256",
+        "Meteorology full book.pdf - Page 262"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 48,
+      "question": "Which pressure system is generally associated with subsidence and fair weather?",
+      "model_answer": "Based on the provided context, the pressure system associated with subsidence and fair weather is the Azores High.",
+      "matched_choice": "A",
+      "citations": [
+        "Meteorology full book.pdf - Page 52",
+        "Meteorology full book.pdf - Page 437"
+      ],
+      "status": " correct (matched A)"
+    },
+    {
+      "id": 49,
+      "question": "If an aircraft flies at a constant Mach number while descending through an inversion layer, the CAS will:",
+      "model_answer": "Based on the provided context, the answer to the question is:\n\nA) remain constant.\n\nThe passage explains that when an aircraft descends through an inversion layer, the CAS (Climb Angle Scale) will remain constant. This is because the descent is taking place at a constant Mach number, which means that the air density is not changing, and therefore the dynamic pressure remains constant. As a result, the CAS does not change during the descent.",
+      "matched_choice": "C",
+      "citations": [
+        "Instruments.pdf - Page 638",
+        "Instruments.pdf - Page 93"
+      ],
+      "status": " correct (matched C)"
+    },
+    {
+      "id": 50,
+      "question": "The primary objective of Air Traffic Services is to:",
+      "model_answer": "Based on the provided context, the primary objective of Air Traffic Services (ATS) is to:\n\n1. Provide Flight Information Service (FIS): ATS provides flight information to aircraft operators and pilots, including weather forecasts, aeronautical charts, and other relevant data.\n\nINFERRED: The primary objective of ATS is to provide flight information services to aircraft operators and pilots.",
+      "matched_choice": "A",
+      "citations": [
+        "Instruments.pdf - Page 325",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 159"
+      ],
+      "status": " correct (matched A)"
+    }
+  ]
+}

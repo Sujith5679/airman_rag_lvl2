@@ -1,0 +1,506 @@
+{
+  "title": "Sample Test Questions",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flight levels are referenced to:",
+      "options": {
+        "A": "Mean Sea Level",
+        "B": "Aerodrome elevation",
+        "C": "Standard pressure datum",
+        "D": "Local QNH"
+      }
+    },
+    {
+      "id": 2,
+      "question": "If both pitot and static sources are blocked, the ASI will:",
+      "options": {
+        "A": "Under-read",
+        "B": "Over-read",
+        "C": "Act as an altimeter",
+        "D": "Freeze at last indication"
+      }
+    },
+    {
+      "id": 3,
+      "question": "An aircraft shall be registered in:",
+      "options": {
+        "A": "Every State it operates into",
+        "B": "More than one State simultaneously",
+        "C": "Only one State at a time",
+        "D": "The State of manufacture only"
+      }
+    },
+    {
+      "id": 4,
+      "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+      "options": {
+        "A": "Certificate of Registration",
+        "B": "Air Operator Certificate",
+        "C": "Certificate of Airworthiness",
+        "D": "Noise Certificate"
+      }
+    },
+    {
+      "id": 5,
+      "question": "When two aircraft are converging at approximately the same altitude, the aircraft which has the other on its:",
+      "options": {
+        "A": "Left shall give way",
+        "B": "Right shall give way",
+        "C": "Tail shall give way",
+        "D": "Higher altitude shall give way"
+      }
+    },
+    {
+      "id": 6,
+      "question": "Which airspace class permits both IFR and VFR flights with ATC separation provided only to IFR?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Class C",
+        "D": "Class E"
+      }
+    },
+    {
+      "id": 7,
+      "question": "The primary objective of Air Traffic Services is to:",
+      "options": {
+        "A": "Maximise airport capacity",
+        "B": "Prevent collisions between aircraft",
+        "C": "Control airline schedules",
+        "D": "Enforce customs regulations"
+      }
+    },
+    {
+      "id": 8,
+      "question": "The primary reason temperature normally decreases with height in the troposphere is due to:",
+      "options": {
+        "A": "Decrease in solar radiation absorption",
+        "B": "Expansion and cooling of rising air",
+        "C": "Reduced ozone concentration",
+        "D": "Increase in terrestrial radiation"
+      }
+    },
+    {
+      "id": 9,
+      "question": "Dew point is best defined as the:",
+      "options": {
+        "A": "Temperature at which clouds form",
+        "B": "Temperature to which air must be cooled to become saturated",
+        "C": "Measure of moisture content",
+        "D": "Lowest night temperature"
+      }
+    },
+    {
+      "id": 10,
+      "question": "An air parcel lifted dry adiabatically will cool at approximately:",
+      "options": {
+        "A": "6.5°C per km",
+        "B": "3°C per 1000 ft",
+        "C": "10°C per km",
+        "D": "5°C per km"
+      }
+    },
+    {
+      "id": 11,
+      "question": "Who painted the famous artwork Mona Lisa?",
+      "options": {
+        "A": "Vincent van Gogh",
+        "B": "Pablo Picasso",
+        "C": "Michelangelo",
+        "D": "Leonardo da Vinci"
+      }
+    },
+    {
+      "id": 12,
+      "question": "The Point of No Return (PNR) is most sensitive to changes in:",
+      "options": {
+        "A": "Aircraft weight",
+        "B": "Wind component",
+        "C": "Fuel density",
+        "D": "Altitude"
+      }
+    },
+    {
+      "id": 13,
+      "question": "A missed approach shall be initiated when:",
+      "options": {
+        "A": "Runway is not visible at 1,000 ft",
+        "B": "Required visual reference is not established at DA/MDA",
+        "C": "ATC clearance is delayed",
+        "D": "Crosswind exceeds aircraft limitation"
+      }
+    },
+    {
+      "id": 14,
+      "question": "The scale of a Mercator chart increases with:",
+      "options": {
+        "A": "Decreasing latitude",
+        "B": "Increasing latitude",
+        "C": "Longitude only",
+        "D": "Distance from prime meridian"
+      }
+    },
+    {
+      "id": 15,
+      "question": "A Commercial Pilot Licence holder may:",
+      "options": {
+        "A": "Act as PIC of scheduled airline operations",
+        "B": "Fly for hire or reward within licence privileges",
+        "C": "Exercise ATPL privileges without experience",
+        "D": "Conduct military operations"
+      }
+    },
+    {
+      "id": 16,
+      "question": "The maximum difference between apparent noon and mean noon occurs approximately during:",
+      "options": {
+        "A": "June and December",
+        "B": "March and September",
+        "C": "April and October",
+        "D": "January and July"
+      }
+    },
+    {
+      "id": 17,
+      "question": "A sea breeze occurs primarily due to:",
+      "options": {
+        "A": "Pressure decrease over land at night",
+        "B": "Faster cooling of land than sea",
+        "C": "Differential heating between land and sea",
+        "D": "Coriolis force reversal"
+      }
+    },
+    {
+      "id": 18,
+      "question": "The minimum number of satellites required by GNSS to determine a 3-D position and time error correction is:",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      }
+    },
+    {
+      "id": 19,
+      "question": "Which cloud type is most likely to produce continuous precipitation?",
+      "options": {
+        "A": "Cumulus",
+        "B": "Cumulonimbus",
+        "C": "Nimbostratus",
+        "D": "Stratocumulus"
+      }
+    },
+    {
+      "id": 20,
+      "question": "Which is the largest planet in our solar system?",
+      "options": {
+        "A": "Earth",
+        "B": "Saturn",
+        "C": "Jupiter",
+        "D": "Neptune"
+      }
+    },
+    {
+      "id": 21,
+      "question": "The primary reason for the difference between geodetic latitude and geocentric latitude is due to:",
+      "options": {
+        "A": "Earth’s rotation",
+        "B": "Earth’s elliptical orbit",
+        "C": "Earth being an oblate spheroid",
+        "D": "Variation of gravity with height"
+      }
+    },
+    {
+      "id": 22,
+      "question": "Which visibility restriction is caused by hygroscopic particles?",
+      "options": {
+        "A": "Fog",
+        "B": "Smoke",
+        "C": "Haze",
+        "D": "Drizzle"
+      }
+    },
+    {
+      "id": 23,
+      "question": "What is the capital city of Australia?",
+      "options": {
+        "A": "Sydney",
+        "B": "Melbourne",
+        "C": "Perth",
+        "D": "Canberra"
+      }
+    },
+    {
+      "id": 24,
+      "question": "The primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:",
+      "options": {
+        "A": "Detection without transponder",
+        "B": "Reduced clutter",
+        "C": "Individual aircraft identification",
+        "D": "Weather penetration"
+      }
+    },
+    {
+      "id": 25,
+      "question": "The Point of No Return (PNR) is most sensitive to changes in:",
+      "options": {
+        "A": "Aircraft weight",
+        "B": "Wind component",
+        "C": "Fuel density",
+        "D": "Altitude"
+      }
+    },
+    {
+      "id": 26,
+      "question": "The primary objective of the Chicago Convention is to:",
+      "options": {
+        "A": "Regulate airline tariffs worldwide",
+        "B": "Promote safe, orderly, and economical development of international civil aviation",
+        "C": "Control military aviation activities",
+        "D": "Allocate airspace sovereignty to ICAO"
+      }
+    },
+    {
+      "id": 27,
+      "question": "Relative humidity will increase when:",
+      "options": {
+        "A": "Temperature increases with constant moisture",
+        "B": "Temperature decreases with constant moisture",
+        "C": "Pressure decreases",
+        "D": "Wind speed increases"
+      }
+    },
+    {
+      "id": 28,
+      "question": "Who was the first human to walk on the Moon?",
+      "options": {
+        "A": "Buzz Aldrin",
+        "B": "Yuri Gagarin",
+        "C": "Michael Collins",
+        "D": "Neil Armstrong"
+      }
+    },
+    {
+      "id": 29,
+      "question": "Which document contains permanent and temporary changes of long duration to aeronautical information?",
+      "options": {
+        "A": "NOTAM",
+        "B": "AIP",
+        "C": "AIC",
+        "D": "SNOWTAM"
+      }
+    },
+    {
+      "id": 30,
+      "question": "If an aircraft flies at a constant Mach number while descending through an inversion layer, the CAS will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain constant",
+        "D": "Become zero"
+      }
+    },
+    {
+      "id": 31,
+      "question": "The range of a VHF navigation aid is primarily limited by:",
+      "options": {
+        "A": "Transmitter power",
+        "B": "Atmospheric refraction",
+        "C": "Line-of-sight distance",
+        "D": "Antenna polarization"
+      }
+    },
+    {
+      "id": 32,
+      "question": "The most hazardous icing for aircraft performance is:",
+      "options": {
+        "A": "Rime ice",
+        "B": "Clear ice",
+        "C": "Hoar frost",
+        "D": "Ice crystals"
+      }
+    },
+    {
+      "id": 33,
+      "question": "Which process transfers heat vertically in the atmosphere?",
+      "options": {
+        "A": "Conduction",
+        "B": "Radiation",
+        "C": "Convection",
+        "D": "Advection"
+      }
+    },
+    {
+      "id": 34,
+      "question": "The colour of runway threshold lights is:",
+      "options": {
+        "A": "Red",
+        "B": "Green",
+        "C": "White",
+        "D": "Amber"
+      }
+    },
+    {
+      "id": 35,
+      "question": "The Dry Adiabatic Lapse Rate (approx.) is:",
+      "options": {
+        "A": "6.5°C per km",
+        "B": "3°C per 1000 ft",
+        "C": "10°C per km",
+        "D": "5°C per km"
+      }
+    },
+    {
+      "id": 36,
+      "question": "Reduced Vertical Separation Minimum (RVSM) vertical separation between FL290 and FL410 is:",
+      "options": {
+        "A": "2,000 ft",
+        "B": "1,000 ft",
+        "C": "500 ft",
+        "D": "300 ft"
+      }
+    },
+    {
+      "id": 37,
+      "question": "The primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:",
+      "options": {
+        "A": "Detection without transponder",
+        "B": "Reduced clutter",
+        "C": "Individual aircraft identification",
+        "D": "Weather penetration"
+      }
+    },
+    {
+      "id": 38,
+      "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+      "options": {
+        "A": "Certificate of Registration",
+        "B": "Air Operator Certificate",
+        "C": "Certificate of Airworthiness",
+        "D": "Noise Certificate"
+      }
+    },
+    {
+      "id": 39,
+      "question": "The ISA assumes a temperature lapse rate of:",
+      "options": {
+        "A": "6.5°C per 100 m",
+        "B": "6.5°C per 1000 ft",
+        "C": "6.5°C per km",
+        "D": "5°C per km"
+      }
+    },
+    {
+      "id": 40,
+      "question": "Who was the first human to walk on the Moon?",
+      "options": {
+        "A": "Buzz Aldrin",
+        "B": "Yuri Gagarin",
+        "C": "Michael Collins",
+        "D": "Neil Armstrong"
+      }
+    },
+    {
+      "id": 41,
+      "question": "Clear Air Turbulence (CAT) is most commonly associated with:",
+      "options": {
+        "A": "Thunderstorms",
+        "B": "Jet streams",
+        "C": "Sea breeze fronts",
+        "D": "Radiation inversion"
+      }
+    },
+    {
+      "id": 42,
+      "question": "In an ICAO flight plan, the planned cruising speed is expressed as:",
+      "options": {
+        "A": "Indicated airspeed",
+        "B": "Ground speed",
+        "C": "Expected true airspeed",
+        "D": "Mach number only"
+      }
+    },
+    {
+      "id": 43,
+      "question": "Relative humidity will increase when:",
+      "options": {
+        "A": "Temperature increases with constant moisture",
+        "B": "Temperature decreases with constant moisture",
+        "C": "Pressure decreases",
+        "D": "Wind speed increases"
+      }
+    },
+    {
+      "id": 44,
+      "question": "The primary purpose of aircraft accident investigation is to:",
+      "options": {
+        "A": "Assign blame and liability",
+        "B": "Determine insurance compensation",
+        "C": "Prevent future accidents",
+        "D": "Penalise flight crew"
+      }
+    },
+    {
+      "id": 45,
+      "question": "Wind shear is most hazardous during:",
+      "options": {
+        "A": "Cruise flight",
+        "B": "High-altitude en-route phase",
+        "C": "Take-off and landing",
+        "D": "Holding patterns"
+      }
+    },
+    {
+      "id": 46,
+      "question": "A warm front is typically characterized by:",
+      "options": {
+        "A": "Steep slope and showery rain",
+        "B": "Narrow cloud band and turbulence",
+        "C": "Gentle slope and widespread stratiform cloud",
+        "D": "Severe thunderstorms along front"
+      }
+    },
+    {
+      "id": 47,
+      "question": "Thunderstorms require all EXCEPT:",
+      "options": {
+        "A": "Moisture",
+        "B": "Instability",
+        "C": "Lifting mechanism",
+        "D": "Temperature inversion at surface"
+      }
+    },
+    {
+      "id": 48,
+      "question": "Which pressure system is generally associated with subsidence and fair weather?",
+      "options": {
+        "A": "Trough",
+        "B": "Cyclone",
+        "C": "Low pressure",
+        "D": "Anticyclone"
+      }
+    },
+    {
+      "id": 49,
+      "question": "If an aircraft flies at a constant Mach number while descending through an inversion layer, the CAS will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain constant",
+        "D": "Become zero"
+      }
+    },
+    {
+      "id": 50,
+      "question": "The primary objective of Air Traffic Services is to:",
+      "options": {
+        "A": "Maximise airport capacity",
+        "B": "Prevent collisions between aircraft",
+        "C": "Control airline schedules",
+        "D": "Enforce customs regulations"
+      }
+    }
+  ]
+}

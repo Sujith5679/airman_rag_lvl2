@@ -1,0 +1,361 @@
+{
+  "summary": {
+    "total": 50,
+    "choice_matched": 30,
+    "refused": 18,
+    "failed": 2,
+    "model_selection_accuracy_rate": 0.6
+  },
+  "details": [
+    {
+      "id": 1,
+      "question": "Flight levels are referenced to:",
+      "model_answer": "1. QNE (Altimeter setting of 29.92\"Hg or 1013.2 hPa)",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 2,
+      "question": "If both pitot and static sources are blocked, the ASI will:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 3,
+      "question": "An aircraft shall be registered in:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 4,
+      "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 5,
+      "question": "When two aircraft are converging at approximately the same altitude, the aircraft which has the other on its:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 6,
+      "question": "Which airspace class permits both IFR and VFR flights with ATC separation provided only to IFR?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 7,
+      "question": "The primary objective of Air Traffic Services is to:",
+      "model_answer": "The primary objective of Air Traffic Services is to:\n\nExactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 8,
+      "question": "The primary reason temperature normally decreases with height in the troposphere is due to:",
+      "model_answer": "The primary reason temperature normally decreases with height in the troposphere is due to the absorption of infrared radiation by greenhouse gases such as carbon dioxide and water vapor. This process is known as the greenhouse effect, which traps heat near the Earth's surface and prevents it from escaping to space. As a result, the temperature at higher altitudes is lower than at lower altitudes, with the greatest decrease in temperature occurring between 10 and 15 km (33,000 and 49,000 feet) above the Earth's surface.",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 9,
+      "question": "Dew point is best defined as the:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 10,
+      "question": "An air parcel lifted dry adiabatically will cool at approximately:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 11,
+      "question": "Who painted the famous artwork Mona Lisa?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 12,
+      "question": "The Point of No Return (PNR) is most sensitive to changes in:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 13,
+      "question": "A missed approach shall be initiated when:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 14,
+      "question": "The scale of a Mercator chart increases with:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 15,
+      "question": "A Commercial Pilot Licence holder may:",
+      "model_answer": null,
+      "status": "failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 16,
+      "question": "The maximum difference between apparent noon and mean noon occurs approximately during:",
+      "model_answer": null,
+      "status": "failed (timeout/error)",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "id": 17,
+      "question": "A sea breeze occurs primarily due to:",
+      "model_answer": "The answer is:\n\nThis information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 18,
+      "question": "The minimum number of satellites required by GNSS to determine a 3-D position and time error correction is:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 19,
+      "question": "Which cloud type is most likely to produce continuous precipitation?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 20,
+      "question": "Which is the largest planet in our solar system?",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 21,
+      "question": "The primary reason for the difference between geodetic latitude and geocentric latitude is due to:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 22,
+      "question": "Which visibility restriction is caused by hygroscopic particles?",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 23,
+      "question": "What is the capital city of Australia?",
+      "model_answer": "The capital city of Australia is Canberra.",
+      "matched_choice": "D",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 24,
+      "question": "The primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 25,
+      "question": "The Point of No Return (PNR) is most sensitive to changes in:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 26,
+      "question": "The primary objective of the Chicago Convention is to:",
+      "model_answer": "The primary objective of the Chicago Convention is to:\n\nThis information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 27,
+      "question": "Relative humidity will increase when:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 28,
+      "question": "Who was the first human to walk on the Moon?",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 29,
+      "question": "Which document contains permanent and temporary changes of long duration to aeronautical information?",
+      "model_answer": "Excellent! Based on the provided information, the answer to the question is:\n\nAIP.",
+      "matched_choice": "B",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 30,
+      "question": "If an aircraft flies at a constant Mach number while descending through an inversion layer, the CAS will:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 31,
+      "question": "The range of a VHF navigation aid is primarily limited by:",
+      "model_answer": "The range of a VHF navigation aid is primarily limited by:\n\n1. Site error: This refers to the accuracy of the VOR beacon site, which can introduce errors in the radiated bearings.\n2. Propagation error: This occurs due to the fact that the VOR signal is affected by terrain and distance, causing \"bends\" or \"scalloping\" in the received signal.\n3. Airborne equipment errors: These refer to the accuracy of the aircraft's equipment in assessing and converting the phase differences to 1\u00b0 of bearing.\n\nThe maximum range of a VOR beacon is monitored to \u00b11\u00b0 accuracy, but actual ranges can vary depending on the specific site and environmental conditions.",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 32,
+      "question": "The most hazardous icing for aircraft performance is:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 33,
+      "question": "Which process transfers heat vertically in the atmosphere?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 34,
+      "question": "The colour of runway threshold lights is:",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 35,
+      "question": "The Dry Adiabatic Lapse Rate (approx.) is:",
+      "model_answer": "The Dry Adiabatic Lapse Rate (DALR) is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 36,
+      "question": "Reduced Vertical Separation Minimum (RVSM) vertical separation between FL290 and FL410 is:",
+      "model_answer": "The reduced vertical separation minimum (RVSM) vertical separation between FL290 and FL410 is 1,000 feet.",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 37,
+      "question": "The primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar is:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 38,
+      "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 39,
+      "question": "The ISA assumes a temperature lapse rate of:",
+      "model_answer": "The ISA assumes a temperature lapse rate of: 0.65\u00b0C/100 m (1.98\u00b0C/1000 ft) up to 11 km (36 090 ft).",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 40,
+      "question": "Who was the first human to walk on the Moon?",
+      "model_answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 41,
+      "question": "Clear Air Turbulence (CAT) is most commonly associated with:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 42,
+      "question": "In an ICAO flight plan, the planned cruising speed is expressed as:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 43,
+      "question": "Relative humidity will increase when:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 44,
+      "question": "The primary purpose of aircraft accident investigation is to:",
+      "model_answer": "The primary purpose of aircraft accident investigation is to:\n\nExamine the reasons for accidents and make recommendations to prevent future occurrences.",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 45,
+      "question": "Wind shear is most hazardous during:",
+      "model_answer": "Based on the information provided in the passage, wind shear is most hazardous during severe thunderstorms, specifically those with F3 to F5 tornadoes. This is because these types of storms are associated with the strongest wind speeds and largest diameter whirlwinds, which can pose a significant threat to aircraft.",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 46,
+      "question": "A warm front is typically characterized by:",
+      "model_answer": "A warm front is typically characterized by: This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    },
+    {
+      "id": 47,
+      "question": "Thunderstorms require all EXCEPT:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 48,
+      "question": "Which pressure system is generally associated with subsidence and fair weather?",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 49,
+      "question": "If an aircraft flies at a constant Mach number while descending through an inversion layer, the CAS will:",
+      "model_answer": "This information is not available in the provided document(s).",
+      "matched_choice": "A",
+      "status": "refused"
+    },
+    {
+      "id": 50,
+      "question": "The primary objective of Air Traffic Services is to:",
+      "model_answer": "The primary objective of Air Traffic Services is to:\n\nExactly: \"This information is not available in the provided document(s).\"",
+      "matched_choice": "A",
+      "status": "answered (choice matched)"
+    }
+  ]
+}

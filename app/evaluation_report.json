@@ -1,0 +1,531 @@
+{
+  "summary": {
+    "total_questions": 50,
+    "grounded": 25,
+    "refused": 14,
+    "failed": 11,
+    "retrieval_hit_rate": 0.5,
+    "faithfulness": 1,
+    "hallucination_rate": 0
+  },
+  "best_5": [
+    {
+      "question": "Why is standby instrumentation critical in case of Air Data Computer failure?",
+      "answer": "Standby instrumentation is critical in case of Air Data Computer (ADC) failure because it provides a backup system for essential flight parameters, such as altitude, airspeed, and vertical speed. In the event of an ADC failure, the standby instruments can take over and provide accurate readings to the pilots, ensuring safe flight operations.\n\nWithout standby instrumentation, the pilots would be reliant on the failed ADC for critical flight information, which could result in errors or unreliable data. This could potentially lead to loss of situational awareness, difficulty in navigating, and increased workload for the pilots, all of which can compromise safety.\n\nMoreover, standby instruments can also provide a means of diagnosing the cause of an ADC failure, allowing maintenance personnel to repair or replace the failed component more efficiently.\n\nIn summary, standby instrumentation is essential in ensuring the safety and reliability of flight operations by providing a backup system for critical flight parameters in case of ADC failure.",
+      "citations": [
+        "Instruments.pdf - Page 106",
+        "Instruments.pdf - Page 104"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Explain the use of the Machmeter in high-altitude flight.",
+      "answer": "The Machmeter is used to indicate the Mach number of an aircraft in high-altitude flight. It consists of a simple aneroid altitude capsule and an airspeed capsule connected at the ratio arm. The instrument displays the indicated Mach number based on the expansion or contraction of the capsules due to changes in airspeed and altitude. The Machmeter does not suffer from temperature or density errors, but it can be affected by position error caused by disturbed airflow at the pitot head and/or static vent. In high-altitude flight, the Machmeter can undergo instrument, position, and manoeuvre induced errors, which can become dangerous if the sign of the position error is such that the Machmeter under-reads. To address this issue, modern jet aircraft use careful design and positioning of the pressure sources to minimize position error at low Mach numbers. However, at higher Mach Numbers, changes in airflow may cause position error to become bigger and possibly change its sign, which can lead to dangerous readings if not corrected.",
+      "citations": [
+        "Instruments.pdf - Page 91",
+        "Instruments.pdf - Page 88"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "How is fuel mass calculated during flight planning?",
+      "answer": "The fuel mass is calculated during flight planning by determining the mass of the trip fuel and converting it into a quantity value using the density or specific gravity (SG) of the fuel. The commander of the aircraft is responsible for ensuring that there is sufficient fuel on board to safely complete the intended flight and land with not less than a specified level of fuel remaining in the tanks. The safe operating fuel requirements are defined in the regulations, and the Fuel Tank Contents and Vents Ramp or Block Fuel are also taken into account during flight planning.",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 42",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 42"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Describe the pilot actions during an ILS approach.",
+      "answer": "Exactly! Here's how you can answer the question:\n\nDuring an Instrument Landing System (ILS) approach, the pilot follows a predetermined glide path and extended runway center line (localizer) to their Decision Height (DH). At decision height, the pilot decides to land (if they have the required visual references and sufficient room to maneuver the aircraft for a safe touchdown) or goes around (overshoots) and carries out the published missed approach procedure.",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 172",
+        "11-radio-navigation-2014.pdf - Page 153"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is the purpose of the pressure altimeter?",
+      "answer": "The purpose of the pressure altimeter is to measure pressure and cause a needle to move across a dial, which is calibrated in feet rather than pressure. The instrument is calibrated in accordance with the ICAO International Standard Atmosphere so that all altimeters will read the same altitude for the same pressure. Additionally, altimeters have a means of adjusting the needle setting to take changes in the surface atmospheric pressure into account.",
+      "citations": [
+        "Instruments.pdf - Page 58",
+        "Meteorology full book.pdf - Page 133"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "worst_5": [
+    {
+      "question": "Why does CG near aft limit reduce stability but improve fuel efficiency?",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Compare VOR and GNSS accuracy for long-distance navigation.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Why do jet engines perform better in cold temperatures?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Meteorology full book.pdf - Page 300",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 423"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Explain why excess aircraft mass reduces takeoff climb gradient.",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 158",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 175"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Why is standby instrumentation critical in case of Air Data Computer failure?",
+      "answer": "Standby instrumentation is critical in case of Air Data Computer (ADC) failure because it provides a backup system for essential flight parameters, such as altitude, airspeed, and vertical speed. In the event of an ADC failure, the standby instruments can take over and provide accurate readings to the pilots, ensuring safe flight operations.\n\nWithout standby instrumentation, the pilots would be reliant on the failed ADC for critical flight information, which could result in errors or unreliable data. This could potentially lead to loss of situational awareness, difficulty in navigating, and increased workload for the pilots, all of which can compromise safety.\n\nMoreover, standby instruments can also provide a means of diagnosing the cause of an ADC failure, allowing maintenance personnel to repair or replace the failed component more efficiently.\n\nIn summary, standby instrumentation is essential in ensuring the safety and reliability of flight operations by providing a backup system for critical flight parameters in case of ADC failure.",
+      "citations": [
+        "Instruments.pdf - Page 106",
+        "Instruments.pdf - Page 104"
+      ],
+      "status": "grounded"
+    }
+  ],
+  "all_results": [
+    {
+      "question": "Define dew point.",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "Meteorology full book.pdf - Page 487",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 153"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is atmospheric pressure?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "Meteorology full book.pdf - Page 23",
+        "Meteorology full book.pdf - Page 8"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is Relative Humidity?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Meteorology full book.pdf - Page 82",
+        "Meteorology full book.pdf - Page 90"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "What is the purpose of the pressure altimeter?",
+      "answer": "The purpose of the pressure altimeter is to measure pressure and cause a needle to move across a dial, which is calibrated in feet rather than pressure. The instrument is calibrated in accordance with the ICAO International Standard Atmosphere so that all altimeters will read the same altitude for the same pressure. Additionally, altimeters have a means of adjusting the needle setting to take changes in the surface atmospheric pressure into account.",
+      "citations": [
+        "Instruments.pdf - Page 58",
+        "Meteorology full book.pdf - Page 133"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Define Mach number.",
+      "answer": "The Mach number is the ratio of the true airspeed (TAS) to the local speed of sound (LSS). It is calculated by dividing TAS by LSS. In this context, the Mach number is defined as 0.77, indicating that the aeroplane is travelling at about three quarters of the speed of sound.",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 501",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 246"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is a gyroscope used for in aircraft instruments?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Instruments.pdf - Page 151",
+        "Instruments.pdf - Page 153"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "What does ICAO stand for?",
+      "answer": "ICAO stands for International Civil Aviation Organization.",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 234",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 10"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Define Airworthiness.",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 213",
+        "Meteorology full book.pdf - Page 324"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "What is a VOR?",
+      "answer": "A VOR is a Visual Approach and Landing System.",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 176",
+        "11-radio-navigation-2014.pdf - Page 140"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Define Instrument Landing System (ILS).",
+      "answer": "Define Instrument Landing System (ILS): This information is not available in the provided document(s).",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 152",
+        "11-radio-navigation-2014.pdf - Page 170"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is a Great Circle?",
+      "answer": "A Great Circle is a circle on the surface of the Earth whose center and radius are those of the Earth itself.",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 29",
+        "10-General-Navigation-2014 (1).pdf - Page 22"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is the 1 in 60 rule?",
+      "answer": "The information you are seeking is not available in the provided document(s).",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 194",
+        "10-General-Navigation-2014 (1).pdf - Page 200"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is Point of Equal Time (PET)?",
+      "answer": "The Point of Equal Time (PET) is a time problem that allows the pilot to decide quickly which of two diversion airfields is closer in time if there is an engine failure or other event. The PET is the track position, in relation to two suitable airfields, from which it is the same time for an aircraft to fly to either.",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 248",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 249"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What does PSR stand for in flight planning?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265",
+        "Instruments.pdf - Page 282"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Define Centre of Gravity (CG).",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 32",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 109"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is MTOW (Maximum Takeoff Weight)?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 32",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 72"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Define TAS (True Air Speed).",
+      "answer": "Define TAS (True Air Speed): This information is not available in the provided document(s).",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 244",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 213"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is an ATC Flight Plan?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 212",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 246"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What is a METAR?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "Meteorology full book.pdf - Page 532",
+        "Meteorology full book.pdf - Page 486"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What does DME stand for?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 249",
+        "11-radio-navigation-2014.pdf - Page 248"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "How does temperature affect aircraft performance during takeoff?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 508",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 423"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Explain the effect of a blocked pitot tube on ASI readings.",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Instruments.pdf - Page 51",
+        "Instruments.pdf - Page 52"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Describe the pilot actions during an ILS approach.",
+      "answer": "Exactly! Here's how you can answer the question:\n\nDuring an Instrument Landing System (ILS) approach, the pilot follows a predetermined glide path and extended runway center line (localizer) to their Decision Height (DH). At decision height, the pilot decides to land (if they have the required visual references and sufficient room to maneuver the aircraft for a safe touchdown) or goes around (overshoots) and carries out the published missed approach procedure.",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 172",
+        "11-radio-navigation-2014.pdf - Page 153"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "What action must be taken when entering controlled airspace without clearance?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Instruments.pdf - Page 421",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 160"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "How can the Navigation Computer be used to calculate wind components?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "10-General-Navigation-2014 (1).pdf - Page 144",
+        "10-General-Navigation-2014 (1).pdf - Page 174"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "How does icing impact aircraft lift and drag?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Meteorology full book.pdf - Page 296",
+        "Meteorology full book.pdf - Page 291"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "How is fuel mass calculated during flight planning?",
+      "answer": "The fuel mass is calculated during flight planning by determining the mass of the trip fuel and converting it into a quantity value using the density or specific gravity (SG) of the fuel. The commander of the aircraft is responsible for ensuring that there is sufficient fuel on board to safely complete the intended flight and land with not less than a specified level of fuel remaining in the tanks. The safe operating fuel requirements are defined in the regulations, and the Fuel Tank Contents and Vents Ramp or Block Fuel are also taken into account during flight planning.",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 42",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 42"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Explain how CG shift affects longitudinal stability.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "How does a pilot determine track error using the 1 in 60 rule?",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Explain the purpose of glide slope guidance in ILS.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "How does air density affect altimeter readings?",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Describe the difference between PSR and PET.",
+      "answer": "This information is not available in the provided document. The topic of PSR and PET is discussed in Chapter 14, but there is no explanation of the difference between the two concepts. Therefore, I cannot provide an answer to your question.",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 265",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 5"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Explain the use of the Machmeter in high-altitude flight.",
+      "answer": "The Machmeter is used to indicate the Mach number of an aircraft in high-altitude flight. It consists of a simple aneroid altitude capsule and an airspeed capsule connected at the ratio arm. The instrument displays the indicated Mach number based on the expansion or contraction of the capsules due to changes in airspeed and altitude. The Machmeter does not suffer from temperature or density errors, but it can be affected by position error caused by disturbed airflow at the pitot head and/or static vent. In high-altitude flight, the Machmeter can undergo instrument, position, and manoeuvre induced errors, which can become dangerous if the sign of the position error is such that the Machmeter under-reads. To address this issue, modern jet aircraft use careful design and positioning of the pressure sources to minimize position error at low Mach numbers. However, at higher Mach Numbers, changes in airflow may cause position error to become bigger and possibly change its sign, which can lead to dangerous readings if not corrected.",
+      "citations": [
+        "Instruments.pdf - Page 91",
+        "Instruments.pdf - Page 88"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "How can GNSS improve navigation accuracy compared to VOR?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "11-radio-navigation-2014.pdf - Page 140",
+        "11-radio-navigation-2014.pdf - Page 324"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "How is runway performance affected by wet runway conditions?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 289",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 346"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Explain the importance of Standard Pressure Setting above Transition Altitude.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "How is loaded mass and balance determined before dispatch?",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Describe the effect of a tailwind on takeoff performance.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "What factors influence selection of cruising altitude in MRJT planning?",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 80",
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 94"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Explain why wake turbulence separation is required on landing.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Why does icing increase stall speed and reduce climb performance?",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Why is RVSM necessary for fuel efficiency in high-altitude flight?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 249",
+        "11-radio-navigation-2014.pdf - Page 282"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Why can wind shear near the ground be more dangerous than at altitude?",
+      "answer": "This answer is not available as it is against my programming rules to provide answers to questions that are not present in the text provided. Additionally, I cannot provide answers that are not based on the information provided in the question. If you have any other questions or concerns, please feel free to ask.",
+      "citations": [
+        "Meteorology full book.pdf - Page 183",
+        "Meteorology full book.pdf - Page 176"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Explain how Great Circle routes reduce fuel consumption.",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "7-Flight-Planning-and-Monitoring-2014.pdf - Page 36",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 452"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Why does QNH setting need correction when transitioning to flight levels?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Instruments.pdf - Page 70",
+        "Meteorology full book.pdf - Page 145"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Why does CG near aft limit reduce stability but improve fuel efficiency?",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Compare VOR and GNSS accuracy for long-distance navigation.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)"
+    },
+    {
+      "question": "Why do jet engines perform better in cold temperatures?",
+      "answer": "This information is not available in the provided document(s).",
+      "citations": [
+        "Meteorology full book.pdf - Page 300",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 423"
+      ],
+      "status": "refused"
+    },
+    {
+      "question": "Explain why excess aircraft mass reduces takeoff climb gradient.",
+      "answer": "Exactly: \"This information is not available in the provided document(s).\"",
+      "citations": [
+        "6-mass-and-balance-and-performance-2014.pdf - Page 158",
+        "6-mass-and-balance-and-performance-2014.pdf - Page 175"
+      ],
+      "status": "grounded"
+    },
+    {
+      "question": "Why is standby instrumentation critical in case of Air Data Computer failure?",
+      "answer": "Standby instrumentation is critical in case of Air Data Computer (ADC) failure because it provides a backup system for essential flight parameters, such as altitude, airspeed, and vertical speed. In the event of an ADC failure, the standby instruments can take over and provide accurate readings to the pilots, ensuring safe flight operations.\n\nWithout standby instrumentation, the pilots would be reliant on the failed ADC for critical flight information, which could result in errors or unreliable data. This could potentially lead to loss of situational awareness, difficulty in navigating, and increased workload for the pilots, all of which can compromise safety.\n\nMoreover, standby instruments can also provide a means of diagnosing the cause of an ADC failure, allowing maintenance personnel to repair or replace the failed component more efficiently.\n\nIn summary, standby instrumentation is essential in ensuring the safety and reliability of flight operations by providing a backup system for critical flight parameters in case of ADC failure.",
+      "citations": [
+        "Instruments.pdf - Page 106",
+        "Instruments.pdf - Page 104"
+      ],
+      "status": "grounded"
+    }
+  ]
+}
